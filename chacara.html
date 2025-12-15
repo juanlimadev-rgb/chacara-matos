@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chácara Matos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Chácara Matos</h1>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div>
+        <h2>O melhor espaço para seus eventos</h2>
+        <p>Ambiente natural, confortável e exclusivo.</p>
+    </div>
+</section>
+
+<!-- BENEFÍCIOS -->
+<section class="beneficios">
+    <h2>O que a Chácara oferece</h2>
+
+    <div class="beneficios-grid">
+        <div class="beneficio">🌳 Área verde ampla</div>
+        <div class="beneficio">🍖 Churrasqueira completa</div>
+        <div class="beneficio">🎱 Mesa de sinuca</div>
+        <div class="beneficio">🏊 Piscina</div>
+        <div class="beneficio">🔊 Som ambiente</div>
+        <div class="beneficio">🎉 Ideal para festas e eventos</div>
+    </div>
+</section>
+
+
+<!-- GALERIA -->
+<section class="galeria">
+    <h2>Galeria da Chácara</h2>
+
+    <div class="slider">
+        <div class="slides">
+            <img src="img/chacara1.png">
+            <img src="img/chacara2.png">
+            <img src="img/chacara3.png">
+        </div>
+    </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="depoimentos">
+    <h2>O que dizem nossos clientes</h2>
+
+    <div class="depoimentos-slider">
+        <div class="depoimentos-track">
+
+            <!-- SLIDE 1 -->
+            <div class="depoimentos-page">
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Espaço lindo e bem cuidado."</p><span>— Ana Paula</span></div>
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Lugar perfeito para confraternização."</p><span>— Carlos Henrique</span></div>
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Churrasqueira excelente."</p><span>— Marcos Vinícius</span></div>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="depoimentos-page">
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Piscina limpa e agradável."</p><span>— Juliana Santos</span></div>
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Sinuca fez toda a diferença."</p><span>— Pedro Alves</span></div>
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Ótimo custo-benefício."</p><span>— Bruno Rocha</span></div>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="depoimentos-page">
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Ambiente tranquilo e organizado."</p><span>— Larissa Costa</span></div>
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Perfeito para aniversários."</p><span>— Rafael Lima</span></div>
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Meus convidados adoraram."</p><span>— Bianca Lopes</span></div>
+            </div>
+
+            <!-- SLIDE 4 -->
+            <div class="depoimentos-page">
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Espaço simples e aconchegante."</p><span>— Patrícia Gomes</span></div>
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Tudo conforme combinado."</p><span>— Diego Ramos</span></div>
+                <div class="depoimento">⭐⭐⭐⭐⭐<p>"Com certeza voltarei."</p><span>— Vanessa Ribeiro</span></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- AGENDAMENTO -->
+<section class="reserva-box">
+    <span class="badge">📅 Reservas Abertas</span>
+
+    <h3>Garanta sua data agora</h3>
+
+    <p class="reserva-desc">
+        Verifique a disponibilidade e faça sua reserva em poucos segundos.
+    </p>
+
+    <div class="inputs">
+        <div class="input-group">
+            <label>Data</label>
+            <input type="date" id="data">
+        </div>
+
+        <div class="input-group">
+            <label>Horário</label>
+            <input type="time" id="hora">
+        </div>
+    </div>
+
+    <button onclick="reservar()" class="btn-reservar">
+        📲 Falar no WhatsApp
+    </button>
+
+    <p class="reserva-info">
+        ✔️ Resposta rápida • ✔️ Sem compromisso
+    </p>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+    <h2>Perguntas frequentes</h2>
+
+    <details>
+        <summary>Tem estacionamento?</summary>
+        <p>Sim, estacionamento amplo e gratuito.</p>
+    </details>
+
+    <details>
+        <summary>Até que horas pode som?</summary>
+        <p>Som permitido até às 22h.</p>
+    </details>
+
+    <details>
+        <summary>Forma de pagamento?</summary>
+        <p>Pix, dinheiro ou transferência.</p>
+    </details>
+</section>
+
+<!-- LOCALIZAÇÃO -->
+<section class="localizacao">
+    <h2>Localização</h2>
+
+    <p class="local-desc">
+        Veja no mapa como chegar até a Chácara Matos.
+    </p>
+
+    <div class="mapa">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1164.3007211420982!2d-37.20077296297238!3d-11.021722470081023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1765690251033!5m2!1spt-BR!2sbr"
+            allowfullscreen
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <a 
+        href="https://www.google.com/maps?q=-11.021722470081023,-37.20077296297238"
+        target="_blank"
+        class="btn-mapa">
+        📍 Abrir no Google Maps
+    </a>
+</section>
+
+
+<footer>
+    © 2025 Chácara Matos — Todos os direitos reservados
+</footer>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a href="https://wa.me/5579998426464" class="whatsapp-float" target="_blank">
+    💬
+</a>
+
+<!-- SCRIPT -->
+<script>
+function reservar() {
+    const data = document.getElementById("data").value;
+    const hora = document.getElementById("hora").value;
+
+    if (!data || !hora) {
+        alert("Por favor, selecione a data e o horário.");
+        return;
+    }
+
+    const dataFormatada = new Date(data).toLocaleDateString("pt-BR");
+
+    const msg = `Olá! 👋
+Gostaria de verificar disponibilidade para reserva da *Chácara Matos*.
+
+📅 Data: ${dataFormatada}
+⏰ Horário: ${hora}
+
+Aguardo retorno, obrigado!`;
+
+    const numero = "5579998426464";
+    window.open(`https://wa.me/${numero}?text=${encodeURIComponent(msg)}`, "_blank");
+}
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
